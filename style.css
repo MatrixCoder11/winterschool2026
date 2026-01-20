@@ -18,6 +18,31 @@ body {
   text-align: center;
 }
 
+/* Меню */
+.nav-menu {
+  margin-bottom: 30px;
+}
+
+.nav-menu a {
+  color: #bbb; /* Трохи сірий колір для неактивних */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Клас для підсвічування поточної сторінки */
+.nav-menu a.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .header p {
   opacity: 0.8;
   margin-top: 10px;
